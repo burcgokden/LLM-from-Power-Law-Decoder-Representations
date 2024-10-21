@@ -1,0 +1,11 @@
+tensorflow==2.15.1
+tensorflow-addons==0.23.0
+tensorflow-probability==0.23.0
+tensorflow-text==2.15.0
+keras-nlp==0.6.4
+sentencepiece==0.1.99
+datasets==2.18.0
+tensorflow-datasets==4.9.4
+horovod==0.28.1
+zstandard==0.22.0
+python==3.11
