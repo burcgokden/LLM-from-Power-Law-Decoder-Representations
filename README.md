@@ -1,6 +1,6 @@
-## Large Language Model From Power Law Decoder Representations
+## PLDR-LLM: Large Language Model From Power Law Decoder Representations
 
-This repository is the implementation of the Large Language Model From Power Law Decoder Representations (PLDR-LLM) detailed in the research article: PLDR-LLM: Large Language Model From Power Law Decoder Representations.
+This repository is the implementation of the Large Language Model From Power Law Decoder Representations (PLDR-LLM) detailed in the research article: [PLDR-LLM: Large Language Model From Power Law Decoder Representations](https://arxiv.org/abs/2410.16703).
 
 Large Language Model From Power Law Decoder Representations is a deductive-inductive LLM model that utilizes the decoder layers that were first developed for [Power Law Graph Transformer (PLGT)](https://arxiv.org/abs/2107.02039). 
 
@@ -227,7 +227,7 @@ e2e_obje.print_generated_text(sentence, translated_text, eval_length)
 ```
 #### Deductive Outputs
 
-Below are the deductive outputs used for monitoring and regularizing the PLDR-LLM. For more on deductive outputs, please see the papers for PLDR-LLM and [Power Law Graph Transformer](https://arxiv.org/abs/2107.02039).
+Below are the deductive outputs used for monitoring and regularizing the PLDR-LLM. For more on deductive outputs, please see the papers for [PLDR-LLM](https://arxiv.org/abs/2410.16703) and [Power Law Graph Transformer](https://arxiv.org/abs/2107.02039).
 
 Metric Tensor **A<sub>LM</sub>** (# decoder layers, # attention heads, $d_k$, $d_k$):
 ```python
@@ -245,5 +245,20 @@ tf.convert_to_tensor([w[5] for w in att_weights[0]])
 ```
 
 #### Additional Notes:
-- In the PLDR-LLM research article, PLDRv5-1 model utilizes GPU memory extensively and was trained with the default BFC memory allocation setting on GPU.
+- In [the PLDR-LLM research article](https://arxiv.org/abs/2410.16703), PLDRv5-1 model utilizes GPU memory extensively and was trained with the default BFC memory allocation setting on GPU.
 - For horovod, Open-MPI version 5.0.3 was used.
+
+#### Citation:
+
+Please cite this work as:
+```bibtex
+@misc{gokden2024pldrllm,
+      title={PLDR-LLM: Large Language Model from Power Law Decoder Representations}, 
+      author={Burc Gokden},
+      year={2024},
+      eprint={2410.16703},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.16703}, 
+}
+```
