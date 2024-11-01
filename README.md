@@ -10,8 +10,10 @@ The output and training procedure of PLDR-LLM is similar to LLMs that utilize de
 
 #### How to reach pretrained PLDR-LLMs:
 
-- The PLDR-LLMs that were pretrained and studied in the [research paper](https://arxiv.org/abs/2410.16703) can be found at [huggingface.co/fromthesky](https://huggingface.co/fromthesky).
-- A fork of the LM Evaluation Harness Suite with PLDR-LLM support is available at [lm-evaluation-harness-with-PLDR-LLM](https://github.com/burcgokden/lm-evaluation-harness-with-PLDR-LLM).
+- The PLDR-LLMs that were pretrained and studied in the [research paper](https://arxiv.org/abs/2410.16703) can be found at  
+[huggingface.co/fromthesky](https://huggingface.co/fromthesky)
+- A fork of the LM Evaluation Harness Suite with PLDR-LLM support is available at  
+[lm-evaluation-harness-with-PLDR-LLM](https://github.com/burcgokden/lm-evaluation-harness-with-PLDR-LLM)
 
 #### Key Features:
 
